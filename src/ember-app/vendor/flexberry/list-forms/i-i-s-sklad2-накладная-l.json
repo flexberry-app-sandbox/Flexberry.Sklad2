@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sklad2-накладная-e",
+  "editForm": "i-i-s-sklad2-накладная-e",
+  "external": false,
+  "caption": "Накладная",
+  "name": "IISSklad2НакладнаяL",
+  "className": "НакладнаяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sklad2-накладная",
+      "modelProjection": "НакладнаяL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sklad2-документ-e",
+  "editForm": "i-i-s-sklad2-документ-e",
+  "external": false,
+  "caption": "Документ",
+  "name": "IISSklad2ДокументL",
+  "className": "ДокументL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sklad2-документ",
+      "modelProjection": "ДокументL"
+    }
+  ]
+}

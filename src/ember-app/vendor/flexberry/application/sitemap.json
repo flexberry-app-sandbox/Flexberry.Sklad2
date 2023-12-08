@@ -1,0 +1,123 @@
+﻿{
+  "applicationCaption": "Sklad2",
+  "applicationTitle": "Sklad2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "sklad2",
+      "caption": "Sklad2",
+      "title": "Sklad2",
+      "children": [
+        {
+          "link": "i-i-s-sklad2-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sklad2-накладная-l",
+          "menuName": null,
+          "caption": "Накладная",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sklad2-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sklad2-склад-l",
+          "menuName": null,
+          "caption": "Склад",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sklad2-документ-l",
+          "menuName": null,
+          "caption": "Документ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sklad2-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": null,
+          "menuName": "информация-о-заказах",
+          "caption": "Информация о заказах",
+          "title": "Информация о заказах",
+          "children": [
+            {
+              "link": "i-i-s-sklad2-документ-l",
+              "menuName": null,
+              "caption": "ДокументL",
+              "title": "Документ",
+              "children": null
+            },
+            {
+              "link": "i-i-s-sklad2-заказ-l",
+              "menuName": null,
+              "caption": "ЗаказL",
+              "title": "Заказ",
+              "children": null
+            },
+            {
+              "link": "i-i-s-sklad2-накладная-l",
+              "menuName": null,
+              "caption": "НакладнаяL",
+              "title": "Накладная",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "товар-на-складе",
+          "caption": "Товар на складе",
+          "title": "Товар на складе",
+          "children": [
+            {
+              "link": "i-i-s-sklad2-склад-l",
+              "menuName": null,
+              "caption": "СкладL",
+              "title": "Склад",
+              "children": null
+            },
+            {
+              "link": "i-i-s-sklad2-товар-l",
+              "menuName": null,
+              "caption": "ТоварL",
+              "title": "Товар",
+              "children": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудник",
+      "caption": "Сотрудник",
+      "title": "Сотрудник",
+      "children": [
+        {
+          "link": "i-i-s-sklad2-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "Сотрудник",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
