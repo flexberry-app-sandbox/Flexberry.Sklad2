@@ -57,10 +57,9 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ТоварL', 'i-i-s-sklad2-товар', {
-    кодТовара: attr('Код товара', { index: 0 }),
-    название: attr('Название', { index: 1 }),
-    единицаИзмерения: attr('Единица измерения', { index: 2 }),
-    описания: attr('Описания', { index: 3 }),
-    цена: attr('Цена', { index: 4 })
+    название: attr('Название', { index: 0 }),
+    единицаИзмерения: attr('Единица измерения', { index: 1 }),
+    описания: attr('Описания', { index: 2 }),
+    цена: attr('Цена', { index: 3 })
   });
 };

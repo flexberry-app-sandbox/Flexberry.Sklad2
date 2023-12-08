@@ -16,6 +16,15 @@
       "ordered": false
     },
     {
+      "name": "имя",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
       "name": "отчество",
       "type": "string",
       "flexberryType": "string",

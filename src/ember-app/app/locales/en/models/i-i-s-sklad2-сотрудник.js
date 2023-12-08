@@ -39,6 +39,9 @@ export default {
     email: {
       __caption__: 'Email'
     },
+    имя: {
+      __caption__: 'имя'
+    },
     отчество: {
       __caption__: 'Отчество'
     },

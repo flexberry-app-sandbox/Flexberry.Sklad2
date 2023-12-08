@@ -21,11 +21,14 @@ public class Sotrudnik {
     @Column(name = "primarykey", length = 16, unique = true, nullable = false)
     private UUID primarykey;
 
-    @Column(name = "Отчество")
-    private String отчество;
-
     @Column(name = "Фамилия")
     private String фамилия;
+
+    @Column(name = "Имя")
+    private String имя;
+
+    @Column(name = "Отчество")
+    private String отчество;
 
     @Column(name = "Телефон")
     private String телефон;
@@ -49,20 +52,28 @@ public class Sotrudnik {
         return primarykey;
     }
 
-    public String getОтчество() {
-      return отчество;
-    }
-
-    public void setОтчество(String отчество) {
-      this.отчество = отчество;
-    }
-
     public String getФамилия() {
       return фамилия;
     }
 
     public void setФамилия(String фамилия) {
       this.фамилия = фамилия;
+    }
+
+    public String getИмя() {
+      return имя;
+    }
+
+    public void setИмя(String имя) {
+      this.имя = имя;
+    }
+
+    public String getОтчество() {
+      return отчество;
+    }
+
+    public void setОтчество(String отчество) {
+      this.отчество = отчество;
     }
 
     public String getТелефон() {

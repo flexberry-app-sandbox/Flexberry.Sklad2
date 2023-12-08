@@ -105,6 +105,42 @@ $.extend(true, translations, {
         sklad2: {
           caption: 'Sklad2',
           title: 'Sklad2',
+          'i-i-s-sklad2-склад-l': {
+            caption: 'Склад',
+            title: ''
+          },
+          'информация-о-заказах': {
+            caption: 'Информация о заказах',
+            title: 'Информация о заказах',
+            'i-i-s-sklad2-документ-l': {
+              caption: 'ДокументL',
+              title: 'Документ'
+            },
+            'i-i-s-sklad2-накладная-l': {
+              caption: 'НакладнаяL',
+              title: 'Накладная'
+            },
+            'i-i-s-sklad2-заказ-l': {
+              caption: 'ЗаказL',
+              title: 'Заказ'
+            }
+          },
+          'товар-на-складе': {
+            caption: 'Товар на складе',
+            title: 'Товар на складе',
+            'i-i-s-sklad2-заказ-l': {
+              caption: 'Заказ',
+              title: ''
+            },
+            'i-i-s-sklad2-товар-l': {
+              caption: 'ТоварL',
+              title: 'Товар'
+            },
+            'i-i-s-sklad2-склад-l': {
+              caption: 'СкладL',
+              title: 'Склад'
+            }
+          },
           'i-i-s-sklad2-товар-l': {
             caption: 'Товар',
             title: ''
@@ -117,10 +153,6 @@ $.extend(true, translations, {
             caption: 'Заказ',
             title: ''
           },
-          'i-i-s-sklad2-склад-l': {
-            caption: 'Склад',
-            title: ''
-          },
           'i-i-s-sklad2-документ-l': {
             caption: 'Документ',
             title: ''
@@ -128,34 +160,6 @@ $.extend(true, translations, {
           'i-i-s-sklad2-сотрудник-l': {
             caption: 'Сотрудник',
             title: ''
-          },
-          'информация-о-заказах': {
-            caption: 'Информация о заказах',
-            title: 'Информация о заказах',
-            'i-i-s-sklad2-документ-l': {
-              caption: 'ДокументL',
-              title: 'Документ'
-            },
-            'i-i-s-sklad2-заказ-l': {
-              caption: 'ЗаказL',
-              title: 'Заказ'
-            },
-            'i-i-s-sklad2-накладная-l': {
-              caption: 'НакладнаяL',
-              title: 'Накладная'
-            }
-          },
-          'товар-на-складе': {
-            caption: 'Товар на складе',
-            title: 'Товар на складе',
-            'i-i-s-sklad2-склад-l': {
-              caption: 'СкладL',
-              title: 'Склад'
-            },
-            'i-i-s-sklad2-товар-l': {
-              caption: 'ТоварL',
-              title: 'Товар'
-            }
           }
         },
         сотрудник: {

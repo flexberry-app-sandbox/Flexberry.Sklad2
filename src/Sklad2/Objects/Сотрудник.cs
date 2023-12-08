@@ -43,9 +43,11 @@ namespace IIS.Sklad2
     public class Сотрудник : ICSSoft.STORMNET.DataObject
     {
         
-        private string fОтчество;
-        
         private string fФамилия;
+        
+        private string fИмя;
+        
+        private string fОтчество;
         
         private string fТелефон;
         
@@ -87,6 +89,38 @@ namespace IIS.Sklad2
                 // *** Start programmer edit section *** (Сотрудник.Email Set end)
 
                 // *** End programmer edit section *** (Сотрудник.Email Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Имя.
+        /// </summary>
+        // *** Start programmer edit section *** (Сотрудник.Имя CustomAttributes)
+
+        // *** End programmer edit section *** (Сотрудник.Имя CustomAttributes)
+        [StrLen(255)]
+        public virtual string Имя
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Сотрудник.Имя Get start)
+
+                // *** End programmer edit section *** (Сотрудник.Имя Get start)
+                string result = this.fИмя;
+                // *** Start programmer edit section *** (Сотрудник.Имя Get end)
+
+                // *** End programmer edit section *** (Сотрудник.Имя Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Сотрудник.Имя Set start)
+
+                // *** End programmer edit section *** (Сотрудник.Имя Set start)
+                this.fИмя = value;
+                // *** Start programmer edit section *** (Сотрудник.Имя Set end)
+
+                // *** End programmer edit section *** (Сотрудник.Имя Set end)
             }
         }
         

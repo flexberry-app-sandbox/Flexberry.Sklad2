@@ -9,44 +9,9 @@
       "title": "Sklad2",
       "children": [
         {
-          "link": "i-i-s-sklad2-товар-l",
-          "menuName": null,
-          "caption": "Товар",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-sklad2-накладная-l",
-          "menuName": null,
-          "caption": "Накладная",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-sklad2-заказ-l",
-          "menuName": null,
-          "caption": "Заказ",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-sklad2-склад-l",
           "menuName": null,
           "caption": "Склад",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-sklad2-документ-l",
-          "menuName": null,
-          "caption": "Документ",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-sklad2-сотрудник-l",
-          "menuName": null,
-          "caption": "Сотрудник",
           "title": "",
           "children": null
         },
@@ -59,22 +24,22 @@
             {
               "link": "i-i-s-sklad2-документ-l",
               "menuName": null,
-              "caption": "ДокументL",
-              "title": "Документ",
-              "children": null
-            },
-            {
-              "link": "i-i-s-sklad2-заказ-l",
-              "menuName": null,
-              "caption": "ЗаказL",
-              "title": "Заказ",
+              "caption": "Документ",
+              "title": "",
               "children": null
             },
             {
               "link": "i-i-s-sklad2-накладная-l",
               "menuName": null,
-              "caption": "НакладнаяL",
-              "title": "Накладная",
+              "caption": "Накладная",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-sklad2-заказ-l",
+              "menuName": null,
+              "caption": "Заказ",
+              "title": "Заказ",
               "children": null
             }
           ]
@@ -86,17 +51,17 @@
           "title": "Товар на складе",
           "children": [
             {
-              "link": "i-i-s-sklad2-склад-l",
+              "link": "i-i-s-sklad2-заказ-l",
               "menuName": null,
-              "caption": "СкладL",
-              "title": "Склад",
+              "caption": "Заказ",
+              "title": "",
               "children": null
             },
             {
               "link": "i-i-s-sklad2-товар-l",
               "menuName": null,
-              "caption": "ТоварL",
-              "title": "Товар",
+              "caption": "Товар",
+              "title": "",
               "children": null
             }
           ]

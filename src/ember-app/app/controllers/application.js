@@ -25,40 +25,10 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.sklad2.caption'),
           title: i18n.t('forms.application.sitemap.sklad2.title'),
           children: [{
-            link: 'i-i-s-sklad2-товар-l',
-            caption: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-товар-l.caption'),
-            title: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-товар-l.title'),
-            icon: 'tasks',
-            children: null
-          }, {
-            link: 'i-i-s-sklad2-накладная-l',
-            caption: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-накладная-l.caption'),
-            title: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-накладная-l.title'),
-            icon: 'archive',
-            children: null
-          }, {
-            link: 'i-i-s-sklad2-заказ-l',
-            caption: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-заказ-l.caption'),
-            title: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-заказ-l.title'),
-            icon: 'table',
-            children: null
-          }, {
             link: 'i-i-s-sklad2-склад-l',
             caption: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-склад-l.caption'),
             title: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-склад-l.title'),
-            icon: 'phone',
-            children: null
-          }, {
-            link: 'i-i-s-sklad2-документ-l',
-            caption: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-документ-l.caption'),
-            title: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-документ-l.title'),
-            icon: 'chart line',
-            children: null
-          }, {
-            link: 'i-i-s-sklad2-сотрудник-l',
-            caption: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-сотрудник-l.caption'),
-            title: i18n.t('forms.application.sitemap.sklad2.i-i-s-sklad2-сотрудник-l.title'),
-            icon: 'address card',
+            icon: 'suitcase',
             children: null
           }, {
             link: null,
@@ -68,19 +38,18 @@ export default Controller.extend({
               link: 'i-i-s-sklad2-документ-l',
               caption: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-документ-l.caption'),
               title: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-документ-l.title'),
-              icon: 'tasks',
-              children: null
-            }, {
-              link: 'i-i-s-sklad2-заказ-l',
-              caption: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-заказ-l.caption'),
-              title: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-заказ-l.title'),
-              icon: 'edit',
+              icon: 'paperclip',
               children: null
             }, {
               link: 'i-i-s-sklad2-накладная-l',
               caption: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-накладная-l.caption'),
               title: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-накладная-l.title'),
-              icon: 'table',
+              children: null
+            }, {
+              link: 'i-i-s-sklad2-заказ-l',
+              caption: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-заказ-l.caption'),
+              title: i18n.t('forms.application.sitemap.sklad2.информация-о-заказах.i-i-s-sklad2-заказ-l.title'),
+              icon: 'phone',
               children: null
             }]
           }, {
@@ -88,16 +57,16 @@ export default Controller.extend({
             caption: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.caption'),
             title: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.title'),
             children: [{
-              link: 'i-i-s-sklad2-склад-l',
-              caption: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.i-i-s-sklad2-склад-l.caption'),
-              title: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.i-i-s-sklad2-склад-l.title'),
-              icon: 'list',
+              link: 'i-i-s-sklad2-заказ-l',
+              caption: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.i-i-s-sklad2-заказ-l.caption'),
+              title: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.i-i-s-sklad2-заказ-l.title'),
+              icon: 'edit',
               children: null
             }, {
               link: 'i-i-s-sklad2-товар-l',
               caption: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.i-i-s-sklad2-товар-l.caption'),
               title: i18n.t('forms.application.sitemap.sklad2.товар-на-складе.i-i-s-sklad2-товар-l.title'),
-              icon: 'tasks',
+              icon: 'folder open',
               children: null
             }]
           }]
@@ -110,7 +79,7 @@ export default Controller.extend({
             link: 'i-i-s-sklad2-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.сотрудник.i-i-s-sklad2-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудник.i-i-s-sklad2-сотрудник-l.title'),
-            icon: 'archive',
+            icon: 'chart bar',
             children: null
           }]
         }
