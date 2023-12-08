@@ -12,7 +12,7 @@
           "link": "i-i-s-sklad2-склад-l",
           "menuName": null,
           "caption": "Склад",
-          "title": "",
+          "title": "Склад",
           "children": null
         },
         {
@@ -25,14 +25,14 @@
               "link": "i-i-s-sklad2-документ-l",
               "menuName": null,
               "caption": "Документ",
-              "title": "",
+              "title": "Документ",
               "children": null
             },
             {
               "link": "i-i-s-sklad2-накладная-l",
               "menuName": null,
               "caption": "Накладная",
-              "title": "",
+              "title": "Накладная",
               "children": null
             },
             {
@@ -51,17 +51,10 @@
           "title": "Товар на складе",
           "children": [
             {
-              "link": "i-i-s-sklad2-заказ-l",
-              "menuName": null,
-              "caption": "Заказ",
-              "title": "",
-              "children": null
-            },
-            {
               "link": "i-i-s-sklad2-товар-l",
               "menuName": null,
               "caption": "Товар",
-              "title": "",
+              "title": "Товар",
               "children": null
             }
           ]

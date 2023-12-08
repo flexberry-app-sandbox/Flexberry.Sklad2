@@ -128,13 +128,13 @@ $.extend(true, translations, {
           'товар-на-складе': {
             caption: 'Товар на складе',
             title: 'Товар на складе',
-            'i-i-s-sklad2-заказ-l': {
-              caption: 'Заказ',
-              title: ''
-            },
             'i-i-s-sklad2-товар-l': {
               caption: 'ТоварL',
               title: 'Товар'
+            },
+            'i-i-s-sklad2-заказ-l': {
+              caption: 'Заказ',
+              title: ''
             },
             'i-i-s-sklad2-склад-l': {
               caption: 'СкладL',
